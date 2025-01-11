@@ -65,7 +65,7 @@ const Login = () => {
 
     try { // https://travelta.online/agent/login
         // http://127.0.0.1:8000/api/admin/auth/login
-      const response = await axios.post('https://laravelreact.wegostores.com/api/admin/auth/login', formData, {
+      const response = await axios.post('https://demo.food2go.online/api/admin/auth/login', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
